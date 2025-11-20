@@ -1,4 +1,4 @@
-import streamlit as st
+aimport streamlit as st
 import pandas as pd
 from datetime import datetime
 import json
@@ -457,4 +457,4 @@ elif page == "Patient Assessment":
                 tg_lab = st.number_input("Triglycerides (mg/dL)", min_value=30, max_value=1000, value=150, key="tg_lab")
             
             st.markdown("**Glucose**")
-            fasting_glucose = st.number_input("Fasting Glucose (mg/dL)            
+            fasting_glucose = st.number_input("Fasting Glucose (mg/dL)")            
